@@ -11,10 +11,10 @@
   --color-border: rgba(255, 255, 255, 0.08);
   --color-border-hover: rgba(255, 255, 255, 0.16);
 
-  --color-primary: #00b4d8;
-  --color-primary-light: #48cae4;
-  --color-primary-dark: #0096b7;
-  --color-primary-glow: rgba(0, 180, 216, 0.25);
+  --color-primary: #22c55e;
+  --color-primary-light: #4ade80;
+  --color-primary-dark: #16a34a;
+  --color-primary-glow: rgba(34, 197, 94, 0.25);
 
   --color-accent: #7b2fff;
   --color-accent-light: #9d5fff;
@@ -27,8 +27,8 @@
   --color-white: #ffffff;
   --color-success: #22c55e;
 
-  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-display: 'Syne', 'Inter', sans-serif;
+  --font-primary: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Poppins', 'Lato', sans-serif;
 
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -98,8 +98,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-primary);
-  background: rgba(0, 180, 216, 0.1);
-  border: 1px solid rgba(0, 180, 216, 0.2);
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.2);
   padding: 5px 14px;
   border-radius: var(--radius-full);
   margin-bottom: 16px;
@@ -156,11 +156,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .btn-primary {
   background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
   color: var(--color-white);
-  box-shadow: 0 4px 20px rgba(0, 180, 216, 0.3);
+  box-shadow: 0 4px 20px rgba(34, 197, 94, 0.3);
 }
 .btn-primary:hover {
   background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
-  box-shadow: 0 6px 28px rgba(0, 180, 216, 0.45);
+  box-shadow: 0 6px 28px rgba(34, 197, 94, 0.45);
   transform: translateY(-2px);
 }
 
@@ -184,7 +184,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .btn-ghost:hover {
   color: var(--color-primary);
-  background: rgba(0, 180, 216, 0.08);
+  background: rgba(34, 197, 94, 0.08);
 }
 
 /* ===== NAVBAR ===== */
@@ -353,8 +353,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-size: 0.82rem;
   font-weight: 600;
   color: var(--color-primary);
-  background: rgba(0, 180, 216, 0.08);
-  border: 1px solid rgba(0, 180, 216, 0.2);
+  background: rgba(34, 197, 94, 0.08);
+  border: 1px solid rgba(34, 197, 94, 0.2);
   padding: 6px 16px;
   border-radius: var(--radius-full);
   margin-bottom: 28px;
